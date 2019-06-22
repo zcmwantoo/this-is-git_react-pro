@@ -1,0 +1,44 @@
+
+.top-title{
+font-size: 18px;
+font-weight: 700;
+}
+
+.ant-menu-horizontal{
+    border: none;
+}
+
+.loginForm{
+    width: 400px;
+    margin: 150px auto;
+    border: 1px solid #E1E4E5;
+    border-radius: 5px;
+}
+.login-bottom{
+    padding: 20px 50px;
+    background-color: #F4F4F4;
+    text-align: center;
+  }
+.login-content{
+    padding: 50px;
+    padding-bottom: 0;
+}
+.login-form-forgot{
+      float: right;
+}
+@media screen and (max-width: 576px) {
+    .loginForm{
+        border: none;
+        width: 100%;
+        margin: 50px auto 0;
+    }
+    .login-content{
+        padding: 20px;
+        padding-bottom: 0;
+    }
+}
+
+/* 自定义tab */
+.ant-tabs-nav-scroll{
+    display: none;
+  }

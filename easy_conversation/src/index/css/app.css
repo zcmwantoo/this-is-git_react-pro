@@ -1,0 +1,94 @@
+.top-title{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.ant-menu-horizontal{
+    border: none;
+}
+.topcav{
+    border-bottom: 0px solid #ccc;
+}
+.box{
+    margin: 0 0 16px 0;
+    border-bottom: 1px solid #e8e8e8;
+    outline: none;
+}
+.loginst{
+    float: right;
+    font-size: 12px;
+}
+.show{
+    display: block;
+}
+.hidden{
+    display: none!important;
+}
+.user-setting{
+    font-size: 12px!important;
+    height: 25px!important;
+    line-height: 25px!important;
+    margin:0!important;
+}
+.user-setting-father div{
+    font-size: 12px!important;
+    padding: 2px 16px!important;
+}
+.ant-menu-vertical.ant-menu-sub{
+    min-width: 0;
+}
+
+
+@media screen and (max-width: 576px) {
+    .imgWidth{
+        max-width: 576px;
+    }
+    .mobie-img{
+        text-align: right;
+    }
+   
+}
+@media screen and (max-width: 992px) {
+    .imgWidth{
+        max-width: 992px;
+    }
+   
+}
+@media screen and (max-width: 768px) {
+    .imgWidth{
+        max-width: 768px;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    .imgWidth{
+        max-width: 1200px;
+    }
+    
+}
+.imgw{
+    max-width: 100%;
+}
+.book-title{
+    font-size: 16px;
+}
+.book-time{
+    color: #8899A6;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.tag{
+    float: right;
+}
+/* 自定义tab */
+.ant-tabs-nav-scroll{
+    display: none;
+}
+.ant-tabs-bar{
+    border-bottom: none;
+}
+/* 自定义分页样式 */
+.ant-list-pagination{
+    margin: 30px 0 ;
+    text-align: center;
+}
